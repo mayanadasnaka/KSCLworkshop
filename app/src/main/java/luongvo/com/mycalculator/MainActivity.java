@@ -150,6 +150,15 @@ public class MainActivity extends AppCompatActivity {
                 case "+":
                     res = number + number2;
                     break;
+                case "-":
+                    res = number - number2;
+                    break;
+                case "/":
+                    res = number / number2;
+                    break;
+                case "X":
+                    res = number * number2;
+                    break;
             }
             result = String.valueOf(res);
             resultTextView.setText(result);
